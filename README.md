@@ -1,79 +1,71 @@
-# Portfólio
+# Portfólio Pessoal com React e TypeScript
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css-modules&logoColor=white)
 
 ## 📖 Sobre o Projeto
 
-Este repositório é o meu **portfólio pessoal**, com o objetivo de mostrar minhas principais habilidades, projetos concluídos e minhas áreas de atuação em desenvolvimento.
+Este repositório contém o código-fonte do meu site de portfólio pessoal, desenvolvido para apresentar minhas habilidades e projetos de uma forma moderna e interativa. A aplicação é uma **Single-Page Application (SPA)** construída com uma stack de frontend moderna, incluindo **Vite, React e TypeScript**.
 
-Construído com foco em **design moderno**, **responsividade total** e **navegação acessível**, o site tem como missão apresentar meu trabalho de forma clara e profissional.
+O objetivo é demonstrar proficiência em desenvolvimento frontend, componentização e estilização, criando uma experiência de usuário fluida e responsiva.
 
 ---
 
 ## ✨ Funcionalidades
 
-- **Seção “Sobre Mim”**: Apresentação pessoal, trajetória e objetivos.  
-- **Habilidades**: Tecnologias e ferramentas que domino.  
-- **Projetos em Destaque**: Capturas de tela e descrições dos projetos com links para o código-fonte ao GitHub.  
-- **Contato**: Formulário funcional ou links diretos para redes sociais e e-mail.  
-- **Responsividade**: Layout otimizado para desktop, tablet e mobile.  
-- **Design Atraente**: Visual limpo, moderno e com boa experiência de usuário.  
+- **Componentização:** A interface é dividida em componentes reutilizáveis para cada seção (Header, Hero, Projetos, etc.).
+- **Estilização com CSS Modules:** O CSS é modular e escopado para cada componente, evitando conflitos de estilo e mantendo o código organizado.
+- **Estrutura de Dados Tipada:** O uso de TypeScript garante a segurança de tipos para os dados dos projetos.
+- **Layout Responsivo:** A aplicação foi projetada para se adaptar a diferentes tamanhos de tela.
 
 ---
 
 ## 🛠️ Tecnologias e Conceitos Praticados
 
-- **HTML5**: Estrutura semântica da página.  
-- **CSS3**: Estilização, uso de Flexbox/Grid e design responsivo.  
-- **JavaScript**: Interações, navegação dinâmica e scripts úteis.  
-- **PHP**: Envio de mensagens do formulário de contato por e-mail.  
-- **Bootstrap**: Componentes prontos e responsividade facilitada.  
-- **GitHub Pages**: Hospedagem do portfólio diretamente no GitHub.  
+- **React**: Biblioteca principal para a construção da interface de usuário.
+- **Vite**: Ferramenta de build extremamente rápida para o ambiente de desenvolvimento.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática, aumentando a robustez e a manutenibilidade do código.
+- **CSS Modules**: Para estilização local e componentizada.
+- **React Icons**: Biblioteca para a inclusão de ícones SVG de forma fácil.
+- **ESLint e Prettier**: Ferramentas para garantir a qualidade e a consistência do código.
 
 ---
 
-## 🚀 Rodando Localmente
+## 🚀 Como Rodar o Projeto
 
 ### **Pré-requisitos**
-- **Navegador atualizado** (Google Chrome, Firefox, Edge etc).  
-- **Servidor local com suporte a PHP** (recomendado: **XAMPP**, **WAMP** ou **Laragon**) para o funcionamento do formulário de contato.
+
+- **Node.js** (versão 18 ou superior)
+- **npm** ou **yarn**
+
+### **Instalação e Execução**
+
+1.  **Clone o repositório**:
+    ```bash
+    git clone [https://github.com/saysxnts/portfolio.git](https://github.com/saysxnts/portfolio.git)
+    ```
+
+2.  **Navegue até a pasta do projeto**:
+    ```bash
+    cd portfolio
+    ```
+
+3.  **Instale as dependências**:
+    ```bash
+    npm install
+    ```
+
+4.  **Execute a aplicação em modo de desenvolvimento**:
+    ```bash
+    npm run dev
+    ```
+    *A aplicação estará disponível em `http://localhost:5173` (ou a porta indicada no terminal).*
+
 ---
-
-### **1. Clone o repositório**
-```bash
-git clone https://github.com/saysxnts/portfolio.git
-```
-2. Entre na pasta do projeto
-```
-cd portfolio
-```
-
-3. Configure o servidor local
-```
-Se estiver usando XAMPP, copie a pasta portfolio para dentro do diretório htdocs.
-Se estiver usando WAMP, coloque a pasta dentro de www.
-Se estiver usando Laragon, coloque a pasta dentro de www ou htdocs.
-```
-4. Inicie o servidor
-```
-No XAMPP, abra o painel e clique em Start no Apache.
-No WAMP, inicie o servidor pelo ícone na bandeja do sistema.
-No Laragon, abra o painel e clique em Start All.
-```
-5. Acesse no navegador
-Digite no navegador:
-```
-http://localhost/portfolio
-```
 
 ## ✒️ Autor
 
-**Guilherme de Oliveira Santos**  
-[LinkedIn](https://www.linkedin.com/in/guilhermedeoliveirasantos)  
-[GitHub](https://github.com/guilhermeoliveirasantos)
+**Guilherme de Oliveira Santos**
