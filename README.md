@@ -38,16 +38,39 @@ Construído com foco em **design moderno**, **responsividade total** e **navega�
 
 ---
 
-## 🚀 Como Visualizar o Projeto
+## 🚀 Rodando Localmente
 
-Basta abrir o arquivo `index.html` no navegador para acessar a versão local do portfólio.  
-
-Se quiser hospedar via GitHub Pages:  
-1. Vá em **Settings → Pages**.  
-2. Em **Source**, selecione a branch `main` e clique em "Save".  
-3. O portfólio estará disponível em `https://saysxnts.github.io/portfolio`.  
-
+### **Pré-requisitos**
+- **Navegador atualizado** (Google Chrome, Firefox, Edge etc).  
+- **Servidor local com suporte a PHP** (recomendado: **XAMPP**, **WAMP** ou **Laragon**) para o funcionamento do formulário de contato.
 ---
+
+### **1. Clone o repositório**
+```bash
+git clone https://github.com/saysxnts/portfolio.git
+```
+2. Entre na pasta do projeto
+```
+cd portfolio
+```
+
+3. Configure o servidor local
+```
+Se estiver usando XAMPP, copie a pasta portfolio para dentro do diretório htdocs.
+Se estiver usando WAMP, coloque a pasta dentro de www.
+Se estiver usando Laragon, coloque a pasta dentro de www ou htdocs.
+```
+4. Inicie o servidor
+```
+No XAMPP, abra o painel e clique em Start no Apache.
+No WAMP, inicie o servidor pelo ícone na bandeja do sistema.
+No Laragon, abra o painel e clique em Start All.
+```
+5. Acesse no navegador
+Digite no navegador:
+```
+http://localhost/portfolio
+```
 
 ## ✒️ Autor
 
